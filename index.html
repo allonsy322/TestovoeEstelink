@@ -1,1 +1,198 @@
-!
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
+    <title>Тестовое задание Estelink</title>
+</head>
+
+<body>
+    <header>Хэдер</header>
+    <section class="main">
+        <div class="main__btn btn">PopUp</div>
+    </section>
+    <footer>Футер</footer>
+
+    <div class="overlay"></div>
+    <div class="overflow">
+        <div class="popup">
+            <div class="popup__close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6L6 18" stroke="#9B9CA0" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M6 6L18 18" stroke="#9B9CA0" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="title">Почтовые отделения</div>
+            <div class="input-block">
+                <div class="input-block__input">
+                    <input type="text" placeholder="Укажите адрес или индекс почтового отделения">
+                </div>
+                <div class="input-block__btn btn">поиск</div>
+            </div>
+            <div class="select-block">
+                <div class="select-block__title">параметры фильма</div>
+                <div class="select-block__wrapper">
+                    <div class="select-block__form">
+                        <div class="select-block__select select">
+                            Область <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 6L8 10L12 6" stroke="#040811" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></span>
+                            <div class="select__dropdown dropdown">
+                                <div class="dropdown__item">Область 1</div>
+                                <div class="dropdown__item">Область 2</div>
+                                <div class="dropdown__item">Область 3</div>
+                                <div class="dropdown__item">Область 4</div>
+                                <div class="dropdown__item">Область 5</div>
+                            </div>
+                        </div>
+                        <div class="select-block__select select">
+                            Город <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 6L8 10L12 6" stroke="#040811" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></span>
+                            <div class="select__dropdown dropdown">
+                                <div class="dropdown__item">Город 1</div>
+                                <div class="dropdown__item">Город 2</div>
+                                <div class="dropdown__item">Город 3</div>
+                                <div class="dropdown__item">Город 4</div>
+                                <div class="dropdown__item">Город 5</div>
+                            </div>
+                        </div>
+                        <div class="select-block__select select">
+                            Район/Округ <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 6L8 10L12 6" stroke="#040811" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></span>
+                            <div class="select__dropdown dropdown">
+                                <div class="dropdown__item">Район 1</div>
+                                <div class="dropdown__item">Район 2</div>
+                                <div class="dropdown__item">Район 3</div>
+                                <div class="dropdown__item">Район 4</div>
+                                <div class="dropdown__item">Район 5</div>
+                            </div>
+                        </div>
+                        <div class="select-block__btn">применить</div>
+                    </div>
+                    <div class="select-block__filters">
+                        <div class="filter__item" data-filter="1">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.33325 4H13.9999" stroke="#2D00FF" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M5.33325 8H13.9999" stroke="#2D00FF" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M5.33325 12H13.9999" stroke="#2D00FF" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M2 4H2.00667" stroke="#2D00FF" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M2 8H2.00667" stroke="#2D00FF" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M2 12H2.00667" stroke="#2D00FF" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="filter__item" data-filter="2">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.66667 2H2V6.66667H6.66667V2Z" stroke="#2D00FF" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13.9999 2H9.33325V6.66667H13.9999V2Z" stroke="#2D00FF" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13.9999 9.3335H9.33325V14.0002H13.9999V9.3335Z" stroke="#2D00FF"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M6.66667 9.3335H2V14.0002H6.66667V9.3335Z" stroke="#2D00FF" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="filter__item" data-filter="3">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 6.00016V1.3335H12V6.00016" stroke="#2D00FF" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M3.99992 12H2.66659C2.31296 12 1.97382 11.8595 1.72378 11.6095C1.47373 11.3594 1.33325 11.0203 1.33325 10.6667V7.33333C1.33325 6.97971 1.47373 6.64057 1.72378 6.39052C1.97382 6.14048 2.31296 6 2.66659 6H13.3333C13.6869 6 14.026 6.14048 14.2761 6.39052C14.5261 6.64057 14.6666 6.97971 14.6666 7.33333V10.6667C14.6666 11.0203 14.5261 11.3594 14.2761 11.6095C14.026 11.8595 13.6869 12 13.3333 12H11.9999"
+                                    stroke="#2D00FF" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M12 9.3335H4V14.6668H12V9.3335Z" stroke="#2D00FF" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map-block">
+                <div class="map-block__wrapper">
+                    <script type="text/javascript" charset="utf-8" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A644ee5252e0ff20437f9b470129a58de0fb0f11ab619e714bf22c6397655dcc6&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+                </div>
+                <div class="map-block__btn btn">добавить все отобранные отделения</div>
+            </div>
+            <div id="list" class="addresses-block">
+                <div class="addresses-block__item">
+                    <div class="addresses-block__title">Россия, Москва <br>ул. Коштоянца, 11</div>
+                    <div class="addresses-block__add">+ Добавить</div>
+                </div>
+                <div class="addresses-block__item">
+                    <div class="addresses-block__title">Россия, Москва <br>ул. Коштоянца, 12</div>
+                    <div class="addresses-block__add">+ Добавить</div>
+                </div>
+                <div class="addresses-block__item">
+                    <div class="addresses-block__title">Россия, Москва <br>ул. Коштоянца, 13</div>
+                    <div class="addresses-block__add">+ Добавить</div>
+                </div>
+                <div class="addresses-block__item">
+                    <div class="addresses-block__title">Россия, Москва <br>ул. Коштоянца, 14</div>
+                    <div class="addresses-block__add">+ Добавить</div>
+                </div>
+                <div class="addresses-block__item">
+                    <div class="addresses-block__title">Россия, Москва <br>ул. Коштоянца, 15</div>
+                    <div class="addresses-block__add">+ Добавить</div>
+                </div>
+                <div class="addresses-block__item">
+                    <div class="addresses-block__title">Россия, Москва <br>ул. Коштоянца, 16</div>
+                    <div class="addresses-block__add">+ Добавить</div>
+                </div>
+                <div class="addresses-block__item">
+                    <div class="addresses-block__title">Россия, Москва <br>ул. Коштоянца, 17</div>
+                    <div class="addresses-block__add">+ Добавить</div>
+                </div>
+                <div class="addresses-block__item">
+                    <div class="addresses-block__title">Россия, Москва <br>ул. Коштоянца, 18</div>
+                    <div class="addresses-block__add">+ Добавить</div>
+                </div>
+                <div class="addresses-block__item">
+                    <div class="addresses-block__title">Россия, Москва <br>ул. Коштоянца, 19</div>
+                    <div class="addresses-block__add">+ Добавить</div>
+                </div>
+            </div>
+            <div class="pagination-block" id="pagination">
+                <div class="pagination-block__left">
+                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 1L1 7L7 13" stroke="#4F5258" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="pagination-block__item pagination-block__item--active">1</div>
+                <div class="pagination-block__item">2</div>
+                <div class="pagination-block__item">3</div>
+                <div class="pagination-block__item">4</div>
+                <div class="pagination-block__item">5</div>
+                <div class="pagination-block__right">
+                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 13L7 7L1 1" stroke="#4F5258" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
